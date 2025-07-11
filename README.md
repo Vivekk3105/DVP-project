@@ -26,10 +26,15 @@ npm install
 
 3. Create a `.env` file with your configuration:
 \`\`\`env
+
 PORT=5000
+
 MONGODB_URI=mongodb://localhost:27017/medical-diagnosis
+
 JWT_SECRET=your-super-secret-jwt-key-here
+
 NODE_ENV=development
+
 \`\`\`
 
 4. Seed the database with sample data:
